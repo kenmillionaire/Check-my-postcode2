@@ -1,0 +1,231 @@
+:root {
+  --primary-color: #011638;
+  --secondary-color:  #F9C80E;
+  --neutral: #EFF9F0;
+  --neutral-2:#303230;
+
+  --white:  #FFFFFF;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+   padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+ width: 100%;
+ height: 100%;
+background-color: var(--neutral);
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+    width: 100%;
+  height: 89px;
+}
+
+
+ul{
+  padding: 0;
+  list-style: none;
+  /* background-color: var(--white-2); */
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+ font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+ul li a{
+  display: block;
+  padding: 8px 25px;
+  color: var(--black-2);
+  text-decoration: none;
+}
+ul li a:hover{
+  color: var(--white-1);
+  background: var(--bg-color);
+}
+
+main{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.brandN{
+ font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.searchbar{
+  width: 1297px;
+  height: 113px;
+margin-top: 165px;
+border-radius: 10px;
+border-radius: 10px
+box-shadow 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.rectangle-2{
+  display: flex;
+  height: 69px;
+border-radius: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  /* padding: 10px 20px; */
+   position: relative;
+  width: 1296px;
+}
+
+.search-container img {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  padding-right: 50px;
+ }
+
+
+.type {
+  padding-left: 204px;
+ top: 187px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--neutral-2);
+width: 1296px;
+height: 69px;
+border-radius: 10px;
+}
+
+ .deviceL{
+ font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+ }
+
+.button{
+  width: 221px;
+height: 69px;
+top: 165px;
+background-color:var(--primary-color) ;
+color: var(--white) ;
+font-size: 24px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align:center;
+}
+
+.book-now{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  width: 1296px;
+height: 497px;
+top: 378px;
+left: 72px;
+border-radius: 8px;
+  }
+
+.image-1{
+  width: 638px
+height: 497px
+top: 378px
+left: 72px
+border-radius: 8px
+
+}
+
+ h5{
+margin-top: 20px;
+margin-left: 60px;
+font-size: 20px;
+ }
+
+ .row .button {
+  display: block;
+  margin-top: 5px;
+}
+
+ h4{
+  text-align: center;
+ }
+ h6 {
+  font-size: 15px;
+
+}
+
+ h2{
+  font-size: xx-large;
+
+ }
+ p{
+  font-size: x-large;
+ }
+ .student-id {
+  background-color: var(--white-2);
+  padding: 5px 10px; /* Adjust the padding for spacing */
+  margin-right: 10px; /* Add some margin for spacing between IDs */
+  color: var(--bg-color3)
+}
+
+.discover {
+  background-color: var(--white-2);
+  text-align: center;
+}
+
+  /* Styling for the footer */
+ .Fcontainer{
+    background-color: var(--black-2);
+    color: var(--white-1);
+    padding: 10px 0;
+    display: flex;
+   }
+ 
+   .base{
+    background-color: var(--black-2);
+    color: var(--white-1);
+   text-align: center;
+ padding-bottom: 40px;
+   }
+
+
+
+  /* Style for individual columns */
+  .column {
+    flex-basis: calc(25.33% - 5px); /* 10px for spacing between columns */
+    text-align: left;
+    margin: 5px; /* Adjust margin for spacing between items */
+  }
+
+  /* Reduce font size for h3 and p elements within the footer */
+  footer h3,
+  footer p {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  .Flink {
+    color: var(--bg-color);
+  }
