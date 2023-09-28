@@ -330,25 +330,31 @@ font-size: 20px;
     color: var(--bg-color);
   }
 
-  @media screen and (min-width: 768px) {
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-    }
-  
-    .searchbar {
-      position: sticky;
-      top: 50px;
-      left: 0;
-      right: 0;
-      z-index: 5;
-    }
-  
-    main {
-      padding-top: 100px;
-    }
+  /* Media query for wide screens */
+@media screen and (min-width: 1200px) {
+  .header {
+    height: 120px; /* Adjust the header height for wide screens */
   }
-  
+
+  .searchbar {
+    width: 100%; /* Make the search bar full width on wide screens */
+    margin-top: 76px; /* Adjust the margin for separation */
+  }
+
+  .search-container img {
+    left: 20px; /* Adjust the icon's position for better alignment */
+  }
+
+  .type {
+    padding-left: 80px; /* Adjust the left padding for the input field */
+  }
+
+  main {
+    margin-left: auto; /* Center the main content horizontally */
+    margin-right: auto;
+  }
+
+  .book-now {
+    width: 100%; /* Make the section full width on wide screens */
+  }
+}
