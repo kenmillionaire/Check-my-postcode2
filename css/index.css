@@ -1,6 +1,7 @@
 :root {
   --primary-color: #011638;
   --secondary-color:  #F9C80E;
+  --secondary10: #FEF4CF;
   --neutral: #EFF9F0;
   --neutral-2:#303230;
 
@@ -74,7 +75,7 @@ text-align: left;
 .searchbar{
   width: 1297px;
   height: 113px;
-margin-top: 165px;
+margin-top: 76px;
 border-radius: 10px;
 border-radius: 10px
 box-shadow 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
@@ -146,19 +147,100 @@ text-align:center;
   justify-content: space-around;
   width: 1296px;
 height: 497px;
-top: 378px;
-left: 72px;
+/* top: 378px;
+left: 72px; */
 border-radius: 8px;
+margin-top: 100px;
   }
 
 .image-1{
-  width: 638px
-height: 497px
-top: 378px
-left: 72px
-border-radius: 8px
+  width: 638px;
+height: 497px;
+top: 378px;
+border-radius: 8px;
+margin-right: 20px;
 
 }
+h3{
+  font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.bookplace-p{
+margin-top: 12px;  
+}
+
+.Popular-P{
+  width: 1296px;
+height: 598px;
+margin-top: 100px;
+}
+
+.Frame-1{
+  width: 1296px;
+height: 85px;
+top: 1027px;
+left: 72px;
+border-radius: 8px, 8px, 0px, 0px;
+gap: 21px;
+background-color: var(--secondary-color);
+display: flex;
+justify-content:space-between;
+
+}
+
+
+.Location{
+  width: 80px;
+height: 24px;
+margin-top: 30.5px;
+margin-left: 40px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.fil{
+  display: flex;
+  margin-right: 40px;
+  margin-bottom: 32px;
+}
+
+.fil-image{
+  width: 24px;
+height: 24px;
+margin-top: 31px;
+left: 1173px;
+
+}
+.Birmingham{
+  width: 1296px;
+height: 54px;
+margin-top: 20.5px;
+background-color: var(--secondary10);
+display: flex;
+justify-content:space-between;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.Pcode{
+  margin-left: 20px;
+}
+.Null{
+color: var(--secondary10);
+}
+
+
+
 
  h5{
 margin-top: 20px;
