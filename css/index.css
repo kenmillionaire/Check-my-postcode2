@@ -10,7 +10,8 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: Open Sans;
    padding: 0;
   margin: 0;
    box-sizing: border-box;
@@ -224,7 +225,7 @@ height: 54px;
 margin-top: 20.5px;
 background-color: var(--secondary10);
 display: flex;
-justify-content:space-between;
+justify-content: space-between;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -235,6 +236,22 @@ text-align: left;
 .Pcode{
   margin-left: 20px;
 }
+
+.Locate{
+  width: 92px;
+height: 24px;
+margin-top: 15.5px;
+margin-left: 40px;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
 .Null{
 color: var(--secondary10);
 }
@@ -312,3 +329,26 @@ font-size: 20px;
   .Flink {
     color: var(--bg-color);
   }
+
+  @media screen and (min-width: 768px) {
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+  
+    .searchbar {
+      position: sticky;
+      top: 50px;
+      left: 0;
+      right: 0;
+      z-index: 5;
+    }
+  
+    main {
+      padding-top: 100px;
+    }
+  }
+  
