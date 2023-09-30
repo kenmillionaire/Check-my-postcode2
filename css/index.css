@@ -400,18 +400,15 @@ border-radius: 8px;
   }
 
   .use-Pcode{
-    font-family: Open Sans;
-font-size: 28px;
+    font-size: 28px;
 font-weight: 600;
 line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
-margin-top: 100px;
   }
 
   .find-Pcode{
-    font-family: Open Sans;
-font-size: 20px;
+   font-size: 20px;
 font-weight: 400;
 line-height: 35px;
 letter-spacing: 0em;
@@ -419,10 +416,7 @@ text-align: left;
   }
 
 
-  footer{
-    margin-top: 100px;
-  }
- h5{
+  h5{
 margin-top: 20px;
 margin-left: 60px;
 font-size: 20px;
@@ -433,14 +427,18 @@ font-size: 20px;
   margin-top: 5px;
 }
 
- 
+   /* Styling for the footer */
 
-  /* Styling for the footer */
+   footer{
+    margin-top: 100px;
+      }
+
  .Fcontainer{
     background-color: var(---primary110);
     color: var(--white);
     padding: 10px 0;
     display: flex;
+    height: 373px;
    }
  
    .base{
@@ -450,22 +448,8 @@ font-size: 20px;
  padding-bottom: 40px;
    }
 
-  /* Reduce font size for h3 and p elements within the footer */
-  /* footer h3,
-  footer p {
-    font-size: 14px; /* Adjust the font size as needed */
-  } */
 
-  footer h3{
-    font-family: Open Sans;
-font-size: 24px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-  }
-
-  .Flink {
+   .Flink {
     color: var(--secondary60);
   }
 
@@ -476,14 +460,32 @@ text-align: left;
     margin: 5px; /* Adjust margin for spacing between items */
   }
 
-  /* Reduce font size for h3 and p elements within the footer */
-  footer h3,
-  footer p {
-    font-size: 14px; /* Adjust the font size as needed */
+  /*font size for h3 and p elements within the footer */
+   footer h3{
+    margin-top: 10px;
+     font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
   }
+
+  footer p{
+font-size: 16px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+  }
+
   .Flink {
-    color: var(--bg-color);
+    color: var(--secondary60);
   }
+
+
+
+
+
 
   /* Media query for wide screens */
 @media screen and (min-width: 1200px) {
