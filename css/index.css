@@ -11,8 +11,7 @@
 
 html,
 body {
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: Open Sans;
+    font-family: Open Sans;   /* font-family: "Open Sans", sans-serif; */
    padding: 0;
   margin: 0;
    box-sizing: border-box;
@@ -23,20 +22,30 @@ overflow-x: hidden;
 overflow-y: auto;
 }
 
+
+
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: var(--secondary60);
-    width: 100%;
+  /* justify-content: space-evenly; */
+  background-color: var(--secondary60);    
+  width: 100%;
   height: 89px;
 }
 
+.brandN{
+  font-size: 24px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0em;
+ text-align: left;
+ margin-left: 100px;
+ }
 
 ul{
   padding: 0;
   list-style: none;
-  /* background-color: var(--white-2); */
+  margin-left: 200px;
 }
 ul li{
   display: inline-block;
@@ -60,33 +69,27 @@ ul li a:hover{
   background: var(--bg-color);
 }
 
-main{
-  width: 90%;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
-.brandN{
- font-size: 24px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-}
+
+
+.searchbar, .book-now, .Popular-P, .local-Postcode, .type{
+margin-left: 40px;
+  }
+
 
 .searchbar{
-  width: 1297px;
-  height: 113px;
+  /* width: 1296px; */
+  height: 69px;
 margin-top: 76px;
 border-radius: 10px;
-border-radius: 10px
-box-shadow 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
 }
 
 .rectangle-2{
   display: flex;
   height: 69px;
 border-radius: 10px;
+/* width: 1296px; */
 }
 
 .search-container {
@@ -94,13 +97,13 @@ border-radius: 10px;
   align-items: center;
   /* padding: 10px 20px; */
    position: relative;
-  width: 1296px;
-}
+  width: 1175px;
+  }
 
 .search-container img {
   position: absolute;
   top: 50%;
-  left: 50px;
+ margin-left: 40px;
   transform: translateY(-50%);
   padding-right: 50px;
  }
@@ -109,20 +112,18 @@ border-radius: 10px;
 .type {
   padding-left: 204px;
  top: 187px;
-font-family: Open Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 color: var(--neutral-2);
-width: 1296px;
+width: 1410px;
 height: 69px;
 border-radius: 10px;
 }
 
  .deviceL{
- font-family: Open Sans;
 font-size: 12px;
 font-weight: 400;
 line-height: 24px;
@@ -134,6 +135,7 @@ text-align: center;
   width: 221px;
 height: 69px;
 top: 165px;
+border-radius: 0px, 10px, 10px, 0px;
 background-color:var(--primary-color) ;
 color: var(--white) ;
 font-size: 24px;
@@ -146,10 +148,11 @@ text-align:center;
 .book-now, .local-Postcode{
   display: flex;
     justify-content: space-around;
-  width: 1296px;
+  width: 1075px;
 height: 497px;
 border-radius: 8px;
 margin-top: 100px;
+margin-right: 500px;
   }
 
 .image-1{
@@ -166,16 +169,30 @@ font-weight: 600;
 line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
+margin-top: 50px;
 }
 
+
 .bookplace-p{
-margin-top: 12px;  
+  
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  
 }
 
 .Popular-P{
   width: 1296px;
 height: 598px;
 margin-top: 100px;
+
+}
+
+.bookplace-text {
+  padding-right: 160px;
 }
 
 .Frame-1{
@@ -432,7 +449,7 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
   }
-  
+
   .Flink {
     color: var(--secondary60);
   }
