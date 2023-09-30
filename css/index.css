@@ -1,6 +1,7 @@
 :root {
   --primary-color: #011638;
-  --secondary-color:  #F9C80E;
+  ---primary110: #00040B;
+  --secondary60:  #F9C80E;
   --secondary10: #FEF4CF;
   --neutral: #EFF9F0;
   --neutral-2:#303230;
@@ -26,7 +27,7 @@ overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary60);
     width: 100%;
   height: 89px;
 }
@@ -142,14 +143,11 @@ letter-spacing: 0em;
 text-align:center;
 }
 
-.book-now{
+.book-now, .local-Postcode{
   display: flex;
-  /* align-items: center; */
-  justify-content: space-around;
+    justify-content: space-around;
   width: 1296px;
 height: 497px;
-/* top: 378px;
-left: 72px; */
 border-radius: 8px;
 margin-top: 100px;
   }
@@ -187,7 +185,7 @@ top: 1027px;
 left: 72px;
 border-radius: 8px, 8px, 0px, 0px;
 gap: 21px;
-background-color: var(--secondary-color);
+background-color: var(--secondary60);
 display: flex;
 justify-content:space-between;
 
@@ -278,6 +276,9 @@ line-height: 24px;
 letter-spacing: 0em;
 }
 
+.Null1{
+  color: var(--white);
+}
 
 .LocationInfo2{
   width: 1296px;
@@ -289,6 +290,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
+margin-bottom: 200px;
 }
 
 .eclipse {
@@ -329,9 +331,40 @@ font-weight: 300;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
-
 }
 
+.local-Postcode{
+  margin-top: 100px;
+  display: flex;
+    justify-content: space-around;
+  width: 1296px;
+height: 497px;
+border-radius: 8px;
+  }
+
+  .use-Pcode{
+    font-family: Open Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 100px;
+  }
+
+  .find-Pcode{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+  }
+
+
+  footer{
+    margin-top: 100px;
+  }
  h5{
 margin-top: 20px;
 margin-left: 60px;
@@ -372,20 +405,37 @@ font-size: 20px;
 
   /* Styling for the footer */
  .Fcontainer{
-    background-color: var(--black-2);
-    color: var(--white-1);
+    background-color: var(---primary110);
+    color: var(--white);
     padding: 10px 0;
     display: flex;
    }
  
    .base{
-    background-color: var(--black-2);
-    color: var(--white-1);
+    background-color: var(---primary110);
+    color: var(--white);
    text-align: center;
  padding-bottom: 40px;
    }
 
+  /* Reduce font size for h3 and p elements within the footer */
+  /* footer h3,
+  footer p {
+    font-size: 14px; /* Adjust the font size as needed */
+  } */
 
+  footer h3{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+  }
+  
+  .Flink {
+    color: var(--secondary60);
+  }
 
   /* Style for individual columns */
   .column {
