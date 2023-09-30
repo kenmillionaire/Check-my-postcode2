@@ -174,14 +174,12 @@ margin-top: 50px;
 
 
 .bookplace-p{
-  
-  font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 35px;
-  letter-spacing: 0em;
-  text-align: left;
-  
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
 }
 
 .Popular-P{
@@ -209,7 +207,7 @@ justify-content:space-between;
 }
 
 
-.Location{
+.Location, .PCode{
   width: 80px;
 height: 24px;
 margin-top: 30.5px;
@@ -221,9 +219,21 @@ letter-spacing: 0em;
 text-align: left;
 }
 
+.Filter{
+  width: 80px;
+height: 24px;
+margin-top: 30.5px;
+margin-left: 10px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
 .fil{
   display: flex;
-  margin-right: 40px;
+  /* margin-right: 80px; */
   margin-bottom: 32px;
 }
 
@@ -231,9 +241,11 @@ text-align: left;
   width: 24px;
 height: 24px;
 margin-top: 31px;
-left: 1173px;
-
+/* left: 1173px; */
+margin-right: 2px;
 }
+
+
 .LocationInfo{
   width: 1296px;
 height: 54px;
@@ -262,11 +274,26 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 }
+
 .Code {
   width: 71px;
   height: 24px;
   padding-right: 30px ;
  font-size: 16px;
+font-weight: 400px;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 110px;
+}
+
+.CodeM{
+  width: 81px;
+height: 24px;
+/* top: 1213px
+left: 677px */
+padding-right: 30px ;
+font-size: 16px;
 font-weight: 400px;
 line-height: 24px;
 letter-spacing: 0em;
@@ -319,7 +346,7 @@ margin-bottom: 200px;
   justify-content: flex-start; /* Align content to the left */
   align-items: center;
   font-size: 24px; /* Adjust the font size as needed */
-  color: black; /* Set the color of the symbol */
+  color: var(---primary110); /* Set the color of the symbol */
  
 }
 
@@ -334,20 +361,18 @@ margin-bottom: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px; /* Adjust the font size as needed */
-  color: black; /* Set the color of the symbol */
+  font-size: 24px; 
+  color: var(---primary110);
 }
 
 .page-info {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px; /* Adjust the font size as needed */
-  color: black; /* Set the color of the text */
-  font-size: 16px;
-font-weight: 300;
+   margin-top: 20px;
+  font-size: 16px; 
+  color: black;
+  font-weight: 300;
 line-height: 24px;
 letter-spacing: 0em;
-text-align: left;
+
 }
 
 .local-Postcode{
@@ -393,32 +418,7 @@ font-size: 20px;
   margin-top: 5px;
 }
 
- h4{
-  text-align: center;
- }
- h6 {
-  font-size: 15px;
-
-}
-
- h2{
-  font-size: xx-large;
-
- }
- p{
-  font-size: x-large;
- }
- .student-id {
-  background-color: var(--white-2);
-  padding: 5px 10px; /* Adjust the padding for spacing */
-  margin-right: 10px; /* Add some margin for spacing between IDs */
-  color: var(--bg-color3)
-}
-
-.discover {
-  background-color: var(--white-2);
-  text-align: center;
-}
+ 
 
   /* Styling for the footer */
  .Fcontainer{
